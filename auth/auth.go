@@ -23,7 +23,7 @@ func GetSpec() *plugin.MiddlewareSpec {
 	}
 }
 
-// AuthMiiddleware struct holds configuration parameters and is used to
+// AuthMiddleware struct holds configuration parameters and is used to
 // serialize/deserialize the configuration from storage engines.
 type AuthMiddleware struct {
 	Password string
